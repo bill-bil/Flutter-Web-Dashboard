@@ -1,4 +1,4 @@
-import 'package:delivery_dashboard/widgets/top_navigation.dart';
+import 'package:delivery_dashboard/ui/widgets/top_navigation.dart';
 import 'package:flutter/material.dart';
 
 class SiteLayout extends StatelessWidget {

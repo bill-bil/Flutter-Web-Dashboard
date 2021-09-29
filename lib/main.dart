@@ -1,11 +1,13 @@
-import 'package:delivery_dashboard/site_layout.dart';
+import 'package:delivery_dashboard/controllers/menu_controller.dart';
+import 'package:delivery_dashboard/core/constants/app_colors.dart';
+import 'package:delivery_dashboard/ui/site_layout.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-import 'constants/app_colors.dart';
-
 void main() {
+  Get.put(MenuController());
+  
   runApp(const MyApp());
 }
 

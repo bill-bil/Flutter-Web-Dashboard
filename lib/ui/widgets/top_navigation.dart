@@ -1,6 +1,6 @@
-import 'package:delivery_dashboard/constants/app_colors.dart';
-import 'package:delivery_dashboard/constants/images.dart';
-import 'package:delivery_dashboard/widgets/responsive_widget.dart';
+import 'package:delivery_dashboard/core/constants/app_colors.dart';
+import 'package:delivery_dashboard/core/constants/images.dart';
+import 'package:delivery_dashboard/ui/widgets/responsive_widget.dart';
 import 'package:flutter/material.dart';
 
 import 'custom_text.dart';
