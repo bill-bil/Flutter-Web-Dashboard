@@ -1,3 +1,5 @@
 import 'package:delivery_dashboard/controllers/menu_controller.dart';
+import 'package:delivery_dashboard/controllers/navigation_controller.dart';
 
 final menuController = MenuController.instance;
+final navigationController = NavigationController.instance;

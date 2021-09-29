@@ -1,4 +1,5 @@
 import 'package:delivery_dashboard/controllers/menu_controller.dart';
+import 'package:delivery_dashboard/controllers/navigation_controller.dart';
 import 'package:delivery_dashboard/core/constants/app_colors.dart';
 import 'package:delivery_dashboard/ui/site_layout.dart';
 import 'package:flutter/material.dart';
@@ -7,7 +8,8 @@ import 'package:google_fonts/google_fonts.dart';
 
 void main() {
   Get.put(MenuController());
-  
+  Get.put(NavigationController());
+
   runApp(const MyApp());
 }
 
