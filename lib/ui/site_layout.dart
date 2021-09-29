@@ -1,3 +1,4 @@
+import 'package:delivery_dashboard/ui/widgets/side_menu.dart';
 import 'package:delivery_dashboard/ui/widgets/top_navigation.dart';
 import 'package:flutter/material.dart';
 
@@ -11,7 +12,9 @@ class SiteLayout extends StatelessWidget {
     return Scaffold(
       key: scaffoldKey,
       appBar: topNavigationBar(context, scaffoldKey),
-      drawer: const Drawer(),
+      drawer: const Drawer(
+        child: SideMenu(),
+      ),
       body: Row(
         children: [
           Expanded(child: Container(color: Colors.red)),
