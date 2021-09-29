@@ -1,21 +1,23 @@
+import 'package:delivery_dashboard/widgets/top_navigation.dart';
 import 'package:flutter/material.dart';
 
 class SiteLayout extends StatelessWidget {
-  const SiteLayout({Key? key}) : super(key: key);
+  SiteLayout({Key? key}) : super(key: key);
+
+  final GlobalKey<ScaffoldState> scaffoldKey = GlobalKey();
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        elevation: 0,
-        backgroundColor: Colors.white,
-      ),
+      key: scaffoldKey,
+      appBar: topNavigationBar(context, scaffoldKey),
+      drawer: const Drawer(),
       body: Row(
         children: [
-          Expanded(child: Container()),
+          Expanded(child: Container(color: Colors.red)),
           Expanded(
             flex: 5,
-            child: Container(),
+            child: Container(color: Colors.blue),
           ),
         ],
       ),

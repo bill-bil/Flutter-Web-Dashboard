@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 
+import 'constants/app_colors.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -17,9 +19,8 @@ class MyApp extends StatelessWidget {
       title: 'Dash',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        scaffoldBackgroundColor: Colors.white,
-      
-        primaryColor: Colors.blue,
+        scaffoldBackgroundColor: AppColors.light,
+        primarySwatch: Colors.blue,
         textTheme:
             GoogleFonts.mulishTextTheme(Theme.of(context).textTheme).apply(
           bodyColor: Colors.black,
@@ -31,7 +32,7 @@ class MyApp extends StatelessWidget {
           },
         ),
       ),
-      home: const SiteLayout(),
+      home: SiteLayout(),
     );
   }
 }
