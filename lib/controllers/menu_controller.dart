@@ -7,8 +7,8 @@ import 'package:get/state_manager.dart';
 class MenuController extends GetxController {
   static MenuController instance = Get.find();
 
-  final activeItem = overviewPageRoute.obs;
-  final hoverItem = ''.obs;
+  var activeItem = overviewPageDisplayName.obs;
+  var hoverItem = ''.obs;
 
   void changeActiveItemTo(String itemName) {
     activeItem.value = itemName;
@@ -18,13 +18,13 @@ class MenuController extends GetxController {
     if (!isActive(itemName)) hoverItem.value = itemName;
   }
 
-  bool isActive(String itemName) => activeItem.value == itemName;
-
   bool isHovering(String itemName) => hoverItem.value == itemName;
+
+ bool  isActive(String itemName) => activeItem.value == itemName;
 
   Widget returnIconFor(String itemName) {
     switch (itemName) {
-      case overviewPageRoute:
+      case overviewPageDisplayName:
         return _customIcon(Icons.trending_up, itemName);
       case driversPageDisplayName:
         return _customIcon(Icons.drive_eta, itemName);

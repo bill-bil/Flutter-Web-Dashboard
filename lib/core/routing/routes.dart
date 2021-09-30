@@ -1,23 +1,19 @@
-const rootRoute = "/";
+import 'package:dashboard/core/models/menu_item.dart';
 
-const overviewPageDisplayName = "Overview";
-const overviewPageRoute = "/overview";
+const rootRoute = '/';
 
-const driversPageDisplayName = "Drivers";
-const driversPageRoute = "/drivers";
+const overviewPageDisplayName = 'Overview';
+const overviewPageRoute = '/overview';
 
-const clientsPageDisplayName = "Clients";
-const clientsPageRoute = "/clients";
+const driversPageDisplayName = 'Drivers';
+const driversPageRoute = '/drivers';
 
-const authenticationPageDisplayName = "Log out";
-const authenticationPageRoute = "/auth";
+const clientsPageDisplayName = 'Clients';
+const clientsPageRoute = '/clients';
 
-class MenuItem {
-  final String name;
-  final String route;
+const authenticationPageDisplayName = 'Log out';
+const authenticationPageRoute = '/auth';
 
-  MenuItem(this.name, this.route);
-}
 
 List<MenuItem> sideMenuItemRoutes = [
   MenuItem(overviewPageDisplayName, overviewPageRoute),

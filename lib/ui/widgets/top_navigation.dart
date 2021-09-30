@@ -33,7 +33,7 @@ AppBar topNavigationBar(BuildContext context, GlobalKey<ScaffoldState> key) =>
           Visibility(
               visible: !ResponsiveWidget.isSmallScreen(context),
               child: const CustomText(
-                text: "Dashboard",
+                text: 'Dashboard',
                 color: AppColors.lightGrey,
                 size: 20,
                 weight: FontWeight.bold,
@@ -76,7 +76,7 @@ AppBar topNavigationBar(BuildContext context, GlobalKey<ScaffoldState> key) =>
           ),
           const SizedBox(width: 24),
           const CustomText(
-            text: "Ricardo Dalarme",
+            text: 'Ricardo Dalarme',
             color: AppColors.lightGrey,
           ),
           const SizedBox(width: 16),

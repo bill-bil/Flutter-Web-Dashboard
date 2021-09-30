@@ -33,7 +33,7 @@ class SideMenu extends StatelessWidget {
                     ),
                     const Flexible(
                       child: CustomText(
-                        text: "Dash",
+                        text: 'Dash',
                         size: 20,
                         weight: FontWeight.bold,
                         color: AppColors.active,
