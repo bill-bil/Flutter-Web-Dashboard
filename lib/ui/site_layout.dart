@@ -1,5 +1,5 @@
-import 'package:delivery_dashboard/ui/widgets/side_menu.dart';
-import 'package:delivery_dashboard/ui/widgets/top_navigation.dart';
+import 'package:dashboard/ui/widgets/side_menu.dart';
+import 'package:dashboard/ui/widgets/top_navigation.dart';
 import 'package:flutter/material.dart';
 
 class SiteLayout extends StatelessWidget {

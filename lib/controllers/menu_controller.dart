@@ -1,5 +1,5 @@
-import 'package:delivery_dashboard/core/constants/app_colors.dart';
-import 'package:delivery_dashboard/core/routing/routes.dart';
+import 'package:dashboard/core/constants/app_colors.dart';
+import 'package:dashboard/core/routing/routes.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get/state_manager.dart';

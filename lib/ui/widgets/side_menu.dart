@@ -1,10 +1,10 @@
-import 'package:delivery_dashboard/core/constants/app_colors.dart';
-import 'package:delivery_dashboard/core/constants/controllers.dart';
-import 'package:delivery_dashboard/core/constants/images.dart';
-import 'package:delivery_dashboard/core/routing/routes.dart';
-import 'package:delivery_dashboard/ui/widgets/custom_text.dart';
-import 'package:delivery_dashboard/ui/widgets/responsive_widget.dart';
-import 'package:delivery_dashboard/ui/widgets/side_menu_item.dart';
+import 'package:dashboard/core/constants/app_colors.dart';
+import 'package:dashboard/core/constants/controllers.dart';
+import 'package:dashboard/core/constants/images.dart';
+import 'package:dashboard/core/routing/routes.dart';
+import 'package:dashboard/ui/widgets/custom_text.dart';
+import 'package:dashboard/ui/widgets/responsive_widget.dart';
+import 'package:dashboard/ui/widgets/side_menu_item.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.delivery_dashboard">
+    package="com.example.dashboard">
    <application
-        android:label="delivery_dashboard"
+        android:label="dashboard"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

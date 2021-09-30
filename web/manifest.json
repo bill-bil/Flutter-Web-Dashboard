@@ -1,6 +1,6 @@
 {
-    "name": "delivery_dashboard",
-    "short_name": "delivery_dashboard",
+    "name": "dashboard",
+    "short_name": "dashboard",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.14)
-project(delivery_dashboard LANGUAGES CXX)
+project(dashboard LANGUAGES CXX)
 
-set(BINARY_NAME "delivery_dashboard")
+set(BINARY_NAME "dashboard")
 
 cmake_policy(SET CMP0063 NEW)
 
