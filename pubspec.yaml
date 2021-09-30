@@ -9,8 +9,12 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+    
+  charts_flutter:
+    git:
+      url: git://github.com/google/charts.git
+      path: charts_flutter
 
-  charts_flutter: ^0.11.0
   data_table_2: ^2.1.1
   get: ^4.3.8
   google_fonts: ^2.1.0

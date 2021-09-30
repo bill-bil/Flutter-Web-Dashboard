@@ -13,7 +13,7 @@ class SideMenu extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    double _width = MediaQuery.of(context).size.width;
+    double width = MediaQuery.of(context).size.width;
 
     return Container(
       color: AppColors.light,
@@ -26,7 +26,7 @@ class SideMenu extends StatelessWidget {
                 const SizedBox(height: 40),
                 Row(
                   children: [
-                    SizedBox(width: _width / 48),
+                    SizedBox(width: width / 48),
                     Padding(
                       padding: const EdgeInsets.only(right: 12),
                       child: Image.asset(Images.logo),
@@ -39,12 +39,10 @@ class SideMenu extends StatelessWidget {
                         color: AppColors.active,
                       ),
                     ),
-                    SizedBox(width: _width / 48),
+                    SizedBox(width: width / 48),
                   ],
                 ),
-                const SizedBox(
-                  height: 30,
-                ),
+                const SizedBox(height: 30),
               ],
             ),
           Divider(
@@ -56,7 +54,7 @@ class SideMenu extends StatelessWidget {
                 .map(
                   (item) => SideMenuItem(
                     itemName: item.name,
-                    onTap: () {
+                    onTap: () async {
                       if (item.route == authenticationPageRoute) {
                         Get.offAllNamed(authenticationPageRoute);
                         menuController
@@ -65,7 +63,7 @@ class SideMenu extends StatelessWidget {
                       if (!menuController.isActive(item.name)) {
                         menuController.changeActiveItemTo(item.name);
                         if (ResponsiveWidget.isSmallScreen(context)) Get.back();
-                        //    navigationController.navigateTo(item.route);
+                        await navigationController.navigateTo(item.route);
                       }
                     },
                   ),
