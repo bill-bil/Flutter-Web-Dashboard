@@ -1,16 +1,39 @@
-# dashboard
+# Web Dashboard
 
-A new Flutter project.
+* [Introdução](#introdução)
+* [Screenshots](#screenshots)
+* [Executando](#executando)
 
-## Getting Started
+## Introdução
 
-This project is a starting point for a Flutter application.
+Esse projeto foi baseado no curso [Complete Flutter Web Course 2021](https://www.youtube.com/watch?v=i6gFRSnE6Ro) de [Lucas Enoque](https://github.com/Santos-Enoque). Trata-se de um simples Dashboard desenvolvido com Flutter Web, possui um design responsivel e o gerenciamento de estado, injeção de dependência e roteamento é todo feito utiizando [GetX](https://pub.dev/packages/get).
 
-A few resources to get you started if this is your first Flutter project:
+## Screenshots
+ 
+<img src="/screenshots/dashboard_large.png"/>
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+<p float="left">
+  <img src="/screenshots/login.png" width="300" />
+  <img src="/screenshots/dashboard_small.png" width="300" />
+  <img src="/screenshots/drivers_small.png" width="300" />
+</p>
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Executando
+
+1. Clone este repositório
+
+```
+git clone https://github.com/ricardodalarme/nubank_clone.git
+```
+
+2. Baixe as dependências
+
+```
+flutter pub get
+```
+
+3. Execute o aplicativo
+
+```
+flutter run
+```
