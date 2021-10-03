@@ -10,12 +10,12 @@ Esse projeto foi baseado no curso [Complete Flutter Web Course 2021](https://www
 
 ## Screenshots
  
-<img src="/screenshots/dashboard_large.png"  width="908" />
+<img src="/screenshots/dashboard_large.png"  />
 
 <p float="left">
-  <img src="/screenshots/login.png" width="300" />
-  <img src="/screenshots/dashboard_small.png" width="300" />
-  <img src="/screenshots/drivers_small.png" width="300" />
+  <img src="/screenshots/login.png" width="290" />
+  <img src="/screenshots/dashboard_small.png" width="290" />
+  <img src="/screenshots/drivers_small.png" width="290" />
 </p>
 
 ## Executando
