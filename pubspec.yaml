@@ -16,8 +16,15 @@ dependencies:
       path: charts_flutter
 
   data_table_2: ^2.1.1
+  firebase_auth: ^3.1.2
+  firebase_core: ^1.7.0
+  flutter_facebook_auth: ^3.5.2
+  flutter_signin_button: ^2.0.0
+  flutter_svg: ^0.22.0
   get: ^4.3.8
   google_fonts: ^2.1.0
+  google_sign_in: ^5.1.1
+  linkedin_login: ^2.0.1
 
 dev_dependencies:
   flutter_test:

@@ -3,6 +3,7 @@ import 'package:dashboard/core/constants/images.dart';
 import 'package:dashboard/core/routing/routes.dart';
 import 'package:dashboard/ui/widgets/custom_text.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_signin_button/flutter_signin_button.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -115,6 +116,24 @@ class AuthenticationPage extends StatelessWidget {
                     )
                   ],
                 ),
+              ),
+              const SizedBox(height: 30),
+              SignInButton(
+                Buttons.Google,
+                text: "Sign up with Google",
+                onPressed: () {},
+              ),
+              const SizedBox(height: 10),
+              SignInButton(
+                Buttons.Facebook,
+                text: "Sign up with Facebook",
+                onPressed: () {},
+              ),
+              const SizedBox(height: 10),
+              SignInButton(
+                Buttons.LinkedIn,
+                text: "Sign up with LinkedIn",
+                onPressed: () {},
               )
             ],
           ),
