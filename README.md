@@ -10,7 +10,7 @@ Esse projeto foi baseado no curso [Complete Flutter Web Course 2021](https://www
 
 ## Screenshots
  
-<img src="/screenshots/dashboard_large.png"/>
+<img src="/screenshots/dashboard_large.png"  width="908" />
 
 <p float="left">
   <img src="/screenshots/login.png" width="300" />
